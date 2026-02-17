@@ -22,9 +22,6 @@
     openFirewall = true;
   };
 
-  # disk
-  services.udisks2.enable = true;
-
   # Podman
   virtualisation.podman.enable = true;
 

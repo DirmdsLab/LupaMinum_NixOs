@@ -37,7 +37,6 @@
 
       # Dev
       vscodium
-      neovim
    
       # Terminal
       foot

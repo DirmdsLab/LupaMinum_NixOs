@@ -16,9 +16,8 @@
       zip
       unzip
 
-
       # Disk
-      gnome-disk-utility
+      gparted
       ncdu
   
       # System Monitor
