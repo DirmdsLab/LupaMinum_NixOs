@@ -27,6 +27,9 @@
       # Login
       ./modules/ssdm/ssdm.nix
 
+      # VM
+      ./modules/virt-manager/vm.nix
+
     ];
 
   # Host
