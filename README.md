@@ -90,8 +90,8 @@ ISO: [latest-nixos-minimal-x86_64-linux.iso](https://nixos.org/download/)
 
     ## Install & Reboot
 
-    1. Run the installation process following the manual.  
-    2. Reboot into your new NixOS system with encryption enabled.  
+    - Run the installation process following the manual.  
+    - Reboot into your new NixOS system with encryption enabled.  
 
     after reboot run setup-update-nix.sh
 
