@@ -51,3 +51,48 @@ External repositories used:
 - `hardware-configuration.nix` is auto-generated using:
   ```bash
   nixos-generate-config --root /mnt
+
+
+
+## How Install
+
+### Download ISO
+
+Use the minimal version:  
+
+ISO: [latest-nixos-minimal-x86_64-linux.iso](https://nixos.org/download/)
+
+## Boot via USB
+
+- Create a bootable USB (e.g., using **[Ventoy](https://github.com/ventoy/Ventoy)**).  
+- Boot from the USB into the NixOS minimal live environment.  
+
+## Initial Setup
+
+1. **Internet Connection** (make sure you can `ping google.com`)  
+2. **Disk Setup** with **GPT scheme**:  
+    - `boot` → **EFI**   
+    - `/root` → **LUKS (encrypted)**  
+
+    References:
+    - [NixOS Installation Manual](https://nixos.org/manual/nixos/stable/#sec-installation-manual)
+    - [LUKS Setup](https://nixos.org/manual/nixos/stable/#ch-file-systems)
+      
+    ## First Configuration
+
+    Use the initial configuration file generated earlier, then edit it manually:
+
+    - configuration-live.nix
+    - flake.nix
+
+    Move the file:
+    - temp/configuration-live.nix → /etc/nixos/configuration.nix
+
+    ## Install & Reboot
+
+    1. Run the installation process following the manual.  
+    2. Reboot into your new NixOS system with encryption enabled.  
+
+    after reboot run setup-update-nix.sh
+
+    Good luck :v
