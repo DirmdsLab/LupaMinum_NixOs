@@ -21,7 +21,7 @@
 ├── flake.lock               # Lock dependency
 └── hardware-configuration.nix  # Auto-generated (ignore)
 ```
-
+                
 ## additional explanation
 
 ###  `modules/ssdm/`
@@ -29,7 +29,7 @@
 Konfigurasi SDDM 
 
 - Theme: [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme)
-- Custom asset: video wallpaper `pixelpc.mp4`
+- Custom asset: video wallpaper `hyprland_kath.mp4`
 
 ###  `modules/virt-manager/`
 
