@@ -51,9 +51,6 @@ External repositories used:
 - `hardware-configuration.nix` is auto-generated using:
   ```bash
   nixos-generate-config --root /mnt
-
-
-
 ## How Install
 
 ### Download ISO
