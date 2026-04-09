@@ -93,6 +93,12 @@ ISO: [latest-nixos-minimal-x86_64-linux.iso](https://nixos.org/download/)
     - Run the installation process following the manual.  
     - Reboot into your new NixOS system with encryption enabled.  
 
-    after reboot run setup-update-nix.sh
+    ## After Install
+    After reboot, run `setup-update-nix.sh` and choose option 2 (update).
+
+    Option 1 is for setting up Secure Boot and enrolling keys.
+
+    For more information about Secure Boot:
+    - [Lanzaboote (Secure Boot for NixOS)](https://github.com/nix-community/lanzaboote)
 
     Good luck :v
