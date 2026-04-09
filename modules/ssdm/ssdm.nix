@@ -1,11 +1,12 @@
 { config, lib, pkgs, ... }:
 
 # Mods
+# Change u wallpaper
 let
   customTheme = pkgs.sddm-astronaut.override {
     embeddedTheme = "hyprland_kath";
     themeConfig = {
-      Background = "/etc/nixos/modules/ssdm/pixelpc.mp4";
+      Background = "/etc/nixos/modules/ssdm/hyprland_kath.mp4";
     };
   };
 
