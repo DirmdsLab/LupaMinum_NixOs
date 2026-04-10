@@ -7,7 +7,7 @@
       # Tools
       wget
       git
-      neofetch
+      fastfetch
       ydotool
       usbutils  
       sshfs
