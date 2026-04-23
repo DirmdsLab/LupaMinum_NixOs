@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }:
 
 # Mods
-# Change u wallpaper
+# Change u wallpaper (remove pixelpc)
 let
   customTheme = pkgs.sddm-astronaut.override {
     embeddedTheme = "hyprland_kath";
