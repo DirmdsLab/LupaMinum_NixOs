@@ -28,6 +28,9 @@
   # Flatpak
   services.flatpak.enable = true;
 
+  # Bluetooth
+  hardware.bluetooth.enable = true;
+
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
   services.openssh.settings.PermitRootLogin = "no";

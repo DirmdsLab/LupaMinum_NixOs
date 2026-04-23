@@ -12,6 +12,7 @@
       # File
       file-roller
       yazi
+      fzf
 
       # Android-Tools
       android-tools
