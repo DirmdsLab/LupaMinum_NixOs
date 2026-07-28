@@ -24,6 +24,9 @@
   programs.xfconf.enable = true;
   programs.thunar.enable = true;
 
+  # flatpak
+  services.flatpak.enable = true;
+
   # Tablet
   hardware.opentabletdriver.enable = true;
 

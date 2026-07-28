@@ -43,7 +43,7 @@
 
       # Dev
       vscodium
-   
+      
       # Terminal
       foot
       starship
