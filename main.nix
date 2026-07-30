@@ -47,9 +47,6 @@
   # Zram
   zramSwap.enable = true;
 
-  # Unfree
-  nixpkgs.config.allowUnfree = true;
-
   # Text
   i18n.defaultLocale = "en_US.UTF-8";
 

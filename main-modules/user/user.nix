@@ -10,7 +10,6 @@
     packages = with pkgs; [
 
       # File
-      file-roller
       yazi
       fzf
 
@@ -38,7 +37,6 @@
 
       # UwU
       cava
-      tty-clock
       peaclock
 
       # Dev
@@ -54,18 +52,8 @@
       # Translate
       translate-shell
 
-      # Sosmed
-      discord
-
       # Tool
-      moonlight-qt
       obs-studio
-
-      # chromium
-      chromium
-
-      # Draw
-      krita
 
       # Osu
       icu76

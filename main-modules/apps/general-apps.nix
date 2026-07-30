@@ -13,10 +13,11 @@
       sshfs
       tmux
       efibootmgr
-      zip
-      unzip
       nvtopPackages.amd
       mangohud
+
+      # Archive
+      p7zip
 
       # Disk
       gparted
