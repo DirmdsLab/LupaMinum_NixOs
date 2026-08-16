@@ -18,6 +18,7 @@
 
       # Archive
       p7zip
+      file-roller
 
       # Disk
       gparted
@@ -40,6 +41,7 @@
       # quickshell
       quickshell
       qt6.qtmultimedia
+      kdePackages.qtdeclarative
   
       # Better Tools
       eza
