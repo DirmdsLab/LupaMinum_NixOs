@@ -58,8 +58,11 @@
       # Osu
       icu76
 
-      # pass
-      age      
+      # Pass
+      age
+
+      # Discord
+      discord      
 
     ];
     

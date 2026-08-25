@@ -53,6 +53,9 @@
   # Features
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
+  # Unfree
+  nixpkgs.config.allowUnfree = true;
+
   # Version
   system.stateVersion = "25.11"; 
 

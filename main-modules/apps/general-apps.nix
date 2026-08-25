@@ -13,7 +13,6 @@
       sshfs
       tmux
       efibootmgr
-      nvtopPackages.amd
       mangohud
 
       # Archive
@@ -27,6 +26,7 @@
       # System Monitor
       btop
       radeontop
+      nvtopPackages.amd
   
       # Audio
       pulseaudio
