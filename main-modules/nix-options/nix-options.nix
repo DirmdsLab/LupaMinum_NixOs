@@ -20,9 +20,22 @@
     withUWSM = true;
   };
 
-  # Files
+  # File Manager
   programs.xfconf.enable = true;
-  programs.thunar.enable = true;
+  
+  programs.thunar = {
+    enable = true;
+    plugins = with pkgs; [
+      thunar-archive-plugin
+      thunar-volman
+    ];
+  };
+  
+  # File Management Services
+  services = {
+    tumbler.enable = true;
+    gvfs.enable = true;
+  };
 
   # Tablet
   hardware.opentabletdriver.enable = true;
